@@ -587,10 +587,12 @@ form{
     margin-top: 1rem;
     font-size: 2rem;
     display: block;
+    text-decoration:none;
 }
 .bts:hover{
     background: white;
     color:black;
+    text-decoration:none;
 }
 .certificate{
     height: 500px;
