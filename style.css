@@ -90,6 +90,10 @@ header .navbar ul li a:hover{
     background: white;
     color:black;
 }
+.bts{
+    text-decoration:none;
+}
+    
 #menu{
     position: fixed;
     top:2rem;right: 2rem;
