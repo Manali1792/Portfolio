@@ -84,9 +84,10 @@ header .navbar ul li a{
     color: #fff;
     font-size: 2rem;
     border-radius: 5rem;
+    text-decoration:none;
 }
 header .navbar ul li a:hover{
-    background: #cce2ec;
+    background: white;
     color:black;
 }
 #menu{
@@ -363,13 +364,16 @@ header .navbar ul li a:hover{
     font-size: 2rem;
     border-radius: 5rem;
     display: block;
+    text-decoration:none;
 }
 .btn i{
     padding: 0 .5rem;
     font-size: 1.8rem;
 }
 .btn :hover{
- background: rgb(167, 167, 232);
+ background: white;
+    color:black;
+    text-decoration:none;
 }
 .user .name{
     color:yellow;
@@ -581,7 +585,7 @@ form{
     display: block;
 }
 .bts:hover{
-    background: #396d86;
+    background: white;
     color:black;
 }
 .certificate{
