@@ -111,6 +111,18 @@ header .navbar ul li a:hover{
     .contact .row .info h3{
        font-size: 1%;
     }
+    /* .portfolio .card{
+       width: 50%;
+       height: 10%;
+    }
+    .portfolio .card img{
+        height: 50%;
+        width: 96%;
+    }
+    .portfolio .card-body{
+        height: 10%;
+        padding: 1%;
+    } */
 }
 @media (max-width:400px)
 {
@@ -137,6 +149,18 @@ header .navbar ul li a:hover{
     section{
         min-height: 250vh;
     }
+    /* .portfolio .card{
+        width: 50%;
+        height: 10%;
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
 }
 @media  (max-width:450px)
 {
@@ -157,6 +181,18 @@ header .navbar ul li a:hover{
     /* .contact {
         margin: 20%;
     } */
+    /* .portfolio .card{
+        width: 50%;
+        height: 10%;
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
 }
 @media  (max-width:600px)
 {
@@ -182,6 +218,21 @@ header .navbar ul li a:hover{
     section{
         min-height: 100vh;
     }
+    /* .portfolio .card{
+        width: 50%;
+        height: 10%;
+        align-items: center;
+        justify-content: center;
+        margin-right: 1%;
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
 }
 @media (max-width:768px)
 {
@@ -191,6 +242,18 @@ header .navbar ul li a:hover{
     .contact .row{
         width:5%;
     }
+    /* .portfolio .card{
+        width: 50%;
+        height: 10%;
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
     
     
 }
@@ -207,10 +270,22 @@ header .navbar ul li a:hover{
     body{
         padding: 0;
     }
+    /* .portfolio .card{
+        width: 50%;
+        height: 10%;
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
     
 }
 
-@media (max-width:1200px){
+@media (max-width:1300px){
     html{
         font-size:55%;
     }
@@ -220,6 +295,20 @@ header .navbar ul li a:hover{
     section{
         min-height: 90vh;
     }
+    /* .portfolio .card{
+        width: 20px;
+        height: 10%;
+       
+
+     }
+     .portfolio .card img{
+         height: 50%;
+         width: 96%;
+     }
+     .portfolio .card-body{
+         height: 10%;
+         padding: 1%;
+     } */
 }
 
 
@@ -361,13 +450,39 @@ header .navbar ul li a:hover{
 .education .box-container .box{
     width: 100%;
 }
-.portfolio img{
-    height: 350px;
-    width: 350px;
-    padding: 20px;
+/* .portfolio .card{
+    width: 40%;
+    display: inline-block;
+    height: 20%;
+    background-color: #bdc0ea;
+    margin: 5%;
+}
+.portfolio .card-body{
+    padding: 10%;
+    height: 50%;
+    font-size: 150%;
+} */
+/* .portfolio img{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    padding-right: 1px;
     /* flex-direction: row; */
-    display: block;
-    margin: auto;
+    /* display: block; */
+    /* margin: auto; */
+/* } */ 
+.portfolio .card{
+    background-color: #b7caf0;
+    display: inline-block;
+    margin: 5%;
+    align-items: center;
+}
+.portfolio .card:hover {
+    transform: scale(1.2);
+   
+}
+.btn:hover{
+    transform: scale(1.2);
 }
 .portfolio .box-container{
     display: flex;
