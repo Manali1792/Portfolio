@@ -279,6 +279,9 @@ header .navbar ul li a:hover{
     header.toggle{
         left:0%;
     }
+    header .user{
+margin-top:20%;
+    }
     body{
         padding: 0;
     }
