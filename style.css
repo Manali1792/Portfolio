@@ -64,6 +64,9 @@ header .user img{
     margin-bottom: 1rem;
     border: .2rem solid blue;
 }
+header .user{
+    margin-top:20%;
+}
 header .user .post{
     font-size: 2rem;
     color: #eee;
