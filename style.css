@@ -202,7 +202,9 @@ header .navbar ul li a:hover{
 {
     
     header{
-        width:50vw;
+        width:100vw;
+        /* height: 100px; */
+      
     }
     header ul{
         margin:auto;
