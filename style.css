@@ -303,12 +303,13 @@ margin-top:20%;
     
 }
 
-@media (max-width:1500px){
+@media (max-width:1300px){
     html{
         font-size:55%;
     }
     header .user{
         margint-top:20%;
+    }
     .home{
         padding: 1rem 4rem;
     }
